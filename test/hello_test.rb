@@ -7,7 +7,7 @@ class HelloTest < Test::Unit::TestCase
 
   def test_message_is_hello_with_power_assert
     assert do
-      Hello.new.message == "hello."
+      Hello.new.message == "hello"
     end
   end
 end
